@@ -1,0 +1,78 @@
+h1{
+	color : red;	
+}
+
+img{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1; /*the negative value indicates that the image will lie behind the heading*/
+}
+
+.topic h3:hover {
+	-webkit-text-stroke:  2px red;
+color: transparent;
+}
+ 	
+#stat {
+	/*setting the static position style */
+	position: static;
+	border: px solid blue;
+	size: 1050px;
+}
+
+#rel1 {
+	/*setting the relative position style */
+	position: relative;
+	left: 5px;
+	border: 5px solid green
+}
+#fic {
+	/*setting the fixed position style
+	It will lie at the bottom right of the screen*/
+	position: fixed;
+	bottom: 0,
+	right: 0,
+	width: 300px;
+	border: 10px solid yellow;
+}
+
+#rel2 {
+	/*setting the relative position for the container of the absolute element*/
+	position: relative;
+	width: 40%;
+	height: 80%;
+	border: 5px solid red;
+}
+
+#rel3 {
+	/*setting the relative position for the container of the absolute element*/
+	position: relative;
+	width: 25%;
+	height: 80%;
+	border: 5px solid red;
+	text-align: centre;
+
+#abs{
+	/*setting the absolute position style
+		It will lie inside the container rel2*/
+		position: relative;
+		right: 0;
+		width: 200px;
+		height: 50px;
+		border: 2px solid purple;
+}
+
+#stk {
+	/*setting the ssticky position style */
+	position: sticky;
+	top: 0;
+	padding: 10px;
+	background-color: aqua;
+	border: 10px solid blue;
+}
+	}
+}
+
+}
+
